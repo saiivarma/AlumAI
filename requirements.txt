@@ -1,0 +1,9 @@
+langchain
+chainlit
+unstructured[local-inference]
+chromadb
+pinecone-client
+tiktoken
+openai
+gradio
+layoutparser[layoutmodels,tesseract]
