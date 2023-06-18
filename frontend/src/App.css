@@ -1,0 +1,124 @@
+.topBarButton {
+  margin-left: 10px;
+  margin-right: 10px;
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 10px;
+  text-decoration: none;
+  font-size: 20px;
+  transition: all 0.1s ease-in-out;
+  cursor: pointer;
+}
+
+.topBarButton:hover {
+  color: #4288DB;
+  cursor: pointer;
+}
+
+/*--------------------------------------------------*/
+
+.mainGuideButton {
+  color: white;
+  background-color: #222222;
+  border: none;
+  padding: 5px;
+  text-decoration: none;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 16px;
+  transition: all 0.1s ease-in-out;
+  cursor: pointer;
+  max-width: 240px;
+}
+
+.mainGuideButton:hover {
+  cursor: pointer;
+}
+
+.mainGuideGrid {
+  background-color: white;
+  width: auto;
+  height: auto;
+  justify-self: center;
+  display: flex;
+  align-items: flex-start;
+  text-align: left;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/*--------------------------------------------------*/
+
+.resumeScoringButton {
+  color: gray;
+  background-color: #333;
+  border: none;
+  border-radius: 20px;
+  padding: 15px;
+  align-self: flex-start;
+  text-decoration: none;
+  font-size: 30px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.resumeScoringButton:hover, .resumeScoringButton:hover > svg {
+  color: white;
+  background-color: #555;
+  cursor: pointer;
+}
+
+/*--------------------------------------------------*/
+
+.textfield-container {
+  display: flex;
+  background-color: black;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+}
+
+.textfield-input {
+  background-color: #444444;
+  font-size: 24px;
+  color: white;
+  outline: none;
+  border: none;
+  border-radius: 8px;
+  padding: 12px;
+  height: 32px;
+  width: 50%;
+}
+
+/*--------------------------------------------------*/
+
+.bottomBarButton {
+  margin-left: 10px;
+  margin-right: 10px;
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 1px;
+  text-decoration: none;
+  font-size: 16px;
+  transition: all 0.1s ease-in-out;
+  cursor: pointer;
+}
+
+.bottomBarButton:hover {
+  color: #4288DB;
+  cursor: pointer;
+}
+
+/*--------------------------------------------------*/
+
+.blue-rect {
+  height: 1em;
+  width: 0.25em;
+  background-color: rgb(94, 166, 255);
+  margin-right: 10px;
+}
